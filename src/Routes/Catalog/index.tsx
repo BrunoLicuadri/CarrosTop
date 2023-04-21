@@ -1,6 +1,7 @@
 import './styles.css';
 import Header from "../../Components/Header";
 import SearchBar from "../../Components/SearchBar";
+import ProductCard from '../../Components/ProductCard';
 
 export default function Catalog() {
     return(
@@ -13,8 +14,8 @@ export default function Catalog() {
                         <SearchBar/>
                     </div>
 
-                    <div>
-                        Cards
+                    <div className="ct-card-container">
+                        <ProductCard/>
                     </div>
                     
                 </section>

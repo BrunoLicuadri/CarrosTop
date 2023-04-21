@@ -4,6 +4,7 @@
     --ct-bg-primary: #fff;
     --ct-bg-button: #00285F;
     --ct-bg-header: #F78B00;
+    --ct-bg-img-card: #EDEDED;
 
     --ct-font-primary: #000;
     --ct-font-secondary: #585858;
@@ -30,3 +31,44 @@ body {
     max-width: 980px;
     margin: 0 auto;
 }
+
+.ct-card-container {
+    width: 300px;
+    height: 347px;
+    border-radius: 10px;
+    background-color: var(--ct-bg-img-card);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ct-product-name{
+    font-size: 18px;
+    color: var(--ct-font-primary);
+    text-align: center;
+}
+
+.ct-product-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--ct-font-secondary);
+}
+
+.ct-product-buy-button {
+    margin: 0 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ct-card-container button {
+    background-color: var(--ct-bg-button);
+    color: var(--ct-font-quaternary);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    height: 40px;
+}
+
+
