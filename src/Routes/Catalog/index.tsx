@@ -16,6 +16,15 @@ export default function Catalog() {
 
                     <div className="ct-card-container">
                         <ProductCard/>
+                        <ProductCard/>
+                        <ProductCard/>
+                        <ProductCard/>
+                        <ProductCard/>
+                        <ProductCard/>
+                        <ProductCard/>
+                        <ProductCard/>
+                        <ProductCard/>
+                        <ProductCard/>
                     </div>
                     
                 </section>

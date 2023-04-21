@@ -1,0 +1,6 @@
+.ct-product-name{
+    font-size: 18px;
+    color: var(--ct-font-primary);
+    text-align: center;
+    margin-bottom: 14px;
+}

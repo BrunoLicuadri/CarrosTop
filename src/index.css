@@ -32,43 +32,12 @@ body {
     margin: 0 auto;
 }
 
+/*---------------------------------------------------------------------*/
+/* CARD PRODUCT */
+
 .ct-card-container {
-    width: 300px;
-    height: 347px;
-    border-radius: 10px;
-    background-color: var(--ct-bg-img-card);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+    margin-top: 40px;
 }
-
-.ct-product-name{
-    font-size: 18px;
-    color: var(--ct-font-primary);
-    text-align: center;
-}
-
-.ct-product-description {
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--ct-font-secondary);
-}
-
-.ct-product-buy-button {
-    margin: 0 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.ct-card-container button {
-    background-color: var(--ct-bg-button);
-    color: var(--ct-font-quaternary);
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-    height: 40px;
-}
-
-
